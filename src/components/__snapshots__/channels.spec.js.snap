@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering should render channels list: Loading spinner 1`] = `
+<div
+  class="inset-mod_m__RrUZk"
+>
+  <div
+    class="stack-mod_m__3s4LT stack-mod_stretch__1Ck4r"
+  >
+    <h2
+      class=""
+    >
+      <span>
+        Channels
+      </span>
+    </h2>
+    <div
+      class="inline-mod_s__3wvxr inline-mod_center__1oQM5"
+    >
+      <div
+        class="loading-spinner-mod_container-large__3fibW"
+      >
+        <svg
+          class="loading-spinner-mod_svg-large__R2yVR"
+          viewBox="0 0 40 40"
+        >
+          <path
+            class="loading-spinner-mod_circle__3HSgV"
+            d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946 s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"
+          />
+          <path
+            class="loading-spinner-mod_pointer__Ipsdk"
+            d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0 C22.32,8.481,24.301,9.057,26.013,10.047z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

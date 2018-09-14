@@ -3,7 +3,7 @@ import * as sdkActions from '@commercetools-frontend/sdk/actions';
 
 export const getChannelsUri = (options, meta) => {
   const requestBuilder = createRequestBuilder({ projectKey: meta.projectKey });
-  const service = requestBuilder.productProjectionsSearch;
+  const service = requestBuilder.channels;
   service.page(options.page).perPage(options.perPage);
   return service.build();
 };

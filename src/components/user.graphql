@@ -1,0 +1,31 @@
+query LoggedInUserQuery {
+  user: me {
+    id
+    email
+    gravatarHash
+    firstName
+    lastName
+    language
+    numberFormat
+    timeZone
+    launchdarklyTrackingId
+    launchdarklyTrackingGroup
+    launchdarklyTrackingTeam
+    defaultProjectKey
+    projects {
+      total
+      results {
+        ...projectFragment
+      }
+    }
+  }
+}
+
+fragment projectFragment on Project {
+  name
+  key
+  suspension {
+    isActive
+  }
+  expired
+}
