@@ -20,7 +20,7 @@
     "ci": "jest --projects jest.*.config.js"
   },
   "dependencies": {
-    "@commercetools-frontend/actions-global": "1.0.0-beta.31",
+    "@commercetools-frontend/actions-global": "1.0.0-rc.1",
     "@commercetools-frontend/application-shell": "1.0.0-beta.31",
     "@commercetools-frontend/constants": "1.0.0-beta.31",
     "@commercetools-frontend/i18n": "1.0.0-beta.31",
